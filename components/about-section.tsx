@@ -12,17 +12,13 @@ export function AboutSection() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I'm a passionate backend developer with expertise in building robust, scalable server-side applications.
-              My focus is on creating efficient APIs, designing database architectures, and implementing secure
-              authentication systems.
+              I am a backend developer specializing in building efficient and scalable applications with the Laravel framework. My focus is on writing clean, maintainable code to solve complex business problems through robust API and database design.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              With experience across multiple programming languages and frameworks, I enjoy solving complex problems and
-              optimizing system performance. I believe in writing clean, maintainable code that stands the test of time.
+              I have a growing interest in DevOps, actively building my skills in tools like Docker and the principles of CI/CD. While I have solidified this knowledge through several training certifications, I am excited by the opportunity to apply it to real-world challenges.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or
-              sharing knowledge with the developer community.
+              My goal is to be a developer who not only builds features but also understands how to ship and maintain them effectively. I am a curious learner, always ready to tackle new challenges in both software architecture and operational efficiency.
             </p>
           </div>
 
@@ -32,13 +28,13 @@ export function AboutSection() {
                 <h3 className="text-xl font-semibold mb-2">Quick Facts</h3>
                 <div className="space-y-2 text-muted-foreground">
                   <p>
-                    <span className="text-foreground font-medium">Location:</span> San Francisco, CA
+                    <span className="text-foreground font-medium">Location:</span> Banjarmasin, Indonesia
                   </p>
                   <p>
-                    <span className="text-foreground font-medium">Experience:</span> 5+ years
+                    <span className="text-foreground font-medium">Experience:</span> 1+ years, fresh graduate
                   </p>
                   <p>
-                    <span className="text-foreground font-medium">Focus:</span> API Development & System Design
+                    <span className="text-foreground font-medium">Focus:</span> Backend Development, DevOps Enthusiast
                   </p>
                   <p>
                     <span className="text-foreground font-medium">Availability:</span> Open to opportunities
@@ -49,7 +45,7 @@ export function AboutSection() {
               <div>
                 <h3 className="text-xl font-semibold mb-2">Interests</h3>
                 <div className="flex flex-wrap gap-2">
-                  {["Microservices", "Cloud Architecture", "DevOps", "Open Source"].map((interest) => (
+                  {["Laravel", "DevOps", "Docker", "CI/CD Automation", "Linux Administration"].map((interest) => (
                     <span
                       key={interest}
                       className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-sm"
