@@ -15,7 +15,7 @@ export function AboutSection() {
               I am a backend developer specializing in building efficient and scalable applications with the Laravel framework. My focus is on writing clean, maintainable code to solve complex business problems through robust API and database design.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I have a growing interest in DevOps, actively building my skills in tools like Docker and the principles of CI/CD. While I have solidified this knowledge through several training certifications, I am excited by the opportunity to apply it to real-world challenges.
+              I have a growing interest in DevOps, actively building my skills in tools like Docker and the principles of CI/CD. While I have solidified this knowledge through several training certifications, I'm excited by the opportunity to apply it to real world challenges.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
               My goal is to be a developer who not only builds features but also understands how to ship and maintain them effectively. I am a curious learner, always ready to tackle new challenges in both software architecture and operational efficiency.
