@@ -5,23 +5,23 @@ export function SkillsSection() {
   const skillCategories = [
     {
       title: "Languages",
-      skills: ["Python", "Node.js", "Go", "Java", "TypeScript", "SQL"],
+      skills: ["PHP", "Javascript", "Bash/Shell", "SQL"],
     },
     {
       title: "Frameworks",
-      skills: ["Express.js", "FastAPI", "Django", "Spring Boot", "Gin", "NestJS"],
+      skills: ["Laravel"],
     },
     {
       title: "Databases",
-      skills: ["PostgreSQL", "MongoDB", "Redis", "MySQL", "Elasticsearch", "DynamoDB"],
+      skills: ["MySQL", "PostgreSQL", "Firebase"],
     },
     {
-      title: "Cloud & DevOps",
-      skills: ["AWS", "Docker", "Kubernetes", "CI/CD", "Terraform", "Nginx"],
+      title: "DevOps",
+      skills: ["Docker", "Kubernetes", "Linux", "CI/CD", "Nginx"],
     },
     {
       title: "Tools & Technologies",
-      skills: ["Git", "GraphQL", "REST APIs", "Microservices", "Message Queues", "Monitoring"],
+      skills: ["Git", "REST APIs", "Microservices", "Composer", "Postman", "ssh"],
     },
   ]
 
