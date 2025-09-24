@@ -13,35 +13,34 @@ export function ProjectsSection() {
       technologies: ["Laravel", "MySQL", "REST API", "Gemini AI", "Midtrans", "RajaOngkir", "IoT"],
       github: "https://github.com/Huseinaby/TUMBUH-Backend",
       demo: "https://documenter.getpostman.com/view/22821702/2sB2qgeyNX",
-      image: "/TUMBUH.png",
+      image: "/tumbuh.png",
       featured: true,
     },
     {
-      title: "Real-time Chat System",
+      title: "SIPEKA - Sistem Peminjaman & Kelola Arsip",
       description:
-        "High-performance WebSocket-based chat application supporting 50K+ concurrent users with message persistence and file sharing capabilities.",
-      technologies: ["Go", "WebSocket", "MongoDB", "Kubernetes"],
-      github: "https://github.com",
-      demo: "https://example.com",
-      image: "/chat-application.png",
-      featured: true,
-    },
-    {
-      title: "Analytics Data Pipeline",
-      description:
-        "ETL pipeline processing 1TB+ daily data with automated reporting, anomaly detection, and real-time dashboards for business intelligence.",
-      technologies: ["Python", "Apache Kafka", "Elasticsearch", "Docker"],
-      github: "https://github.com",
-      image: "/data-analytics-dashboard-with-graphs-and-pipeline-.jpg",
+        "SIPEKA is a web-based system for managing Building Permit (IMB) archives, providing digital PDF storage by year and a borrowing feature where users must register, verify their email and ID, submit a request with personal details and purpose, then collect the approved archive at the office within a set loan period.",
+      technologies: ["Laravel", "MySQL", "Tailwind CSS", "Mailgun"],
+      github: "https://github.com/mmaulidinabdi/pinjam_arsip_magang",      
+      image: "/sipeka.png",
       featured: false,
     },
     {
-      title: "Authentication Service",
+      title: "SI - Kaligrafi",
       description:
-        "OAuth2/JWT-based authentication microservice with multi-factor authentication, rate limiting, and comprehensive audit logging.",
-      technologies: ["Java", "Spring Boot", "MySQL", "Redis"],
-      github: "https://github.com",
-      image: "/authentication-service-admin-panel-with-user-manag.jpg",
+        "SI-Kaligrafi is a dynamic profile website and Content Management System (CMS) built for a professional calligraphy service. The application is designed to professionally showcase services, gallery, and testimonials to potential clients. All content on the public-facing homepage is fully manageable through a secure and user-friendly admin panel, demonstrating a monolithic Laravel architecture with distinct frontend frameworks for public and admin interfaces.",
+      technologies: ["Laravel", "MySQL", "Tailwind CSS", "Bootstrap"],
+      github: "https://github.com/Huseinaby/si-kaligrafi",
+      image: "/si-kaligrafi.png",
+      featured: false,
+    },
+    {
+      title: "ARSIP - IMB Digital Archive System",
+      description:
+        "A web-based application designed for the digital archiving and management of IMB (Izin Mendirikan Bangunan - Building Permit) documents. Developed for government agencies or departments, this system aims to modernize record-keeping by centralizing archives, enabling quick and powerful searches, and providing integrated tools for PDF document management.",
+      technologies: ["Laravel", "MySQL", "Tailwind CSS", "Flowbite"],
+      github: "https://github.com/Huseinaby/Arsip",
+      image: "/arsip.png",
       featured: false,
     },
   ]
@@ -104,7 +103,7 @@ export function ProjectsSection() {
                     <Button size="sm" asChild>
                       <a href={project.demo} target="_blank" rel="noopener noreferrer">
                         <ExternalLink className="h-4 w-4 mr-2" />
-                        Demo
+                        Doc
                       </a>
                     </Button>
                   )}
