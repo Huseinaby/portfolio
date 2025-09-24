@@ -87,21 +87,29 @@ export function ContactSection() {
               </a>
             </div>
           </div>
-
           <Card className="p-8 bg-card border-border">
-            <form className="space-y-6">
+            <form
+              action="https://formspree.io/f/manpygyb"
+              method="POST"
+              className="space-y-6"
+            >
               <div className="grid sm:grid-cols-2 gap-4">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium mb-2">
                     Name
                   </label>
-                  <Input id="name" placeholder="Your name" />
+                  <Input id="name" name="name" placeholder="Your name" />
                 </div>
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium mb-2">
                     Email
                   </label>
-                  <Input id="email" type="email" placeholder="your@email.com" />
+                  <Input
+                    id="email"
+                    type="email"
+                    name="email"
+                    placeholder="your@email.com"
+                  />
                 </div>
               </div>
 
@@ -109,14 +117,19 @@ export function ContactSection() {
                 <label htmlFor="subject" className="block text-sm font-medium mb-2">
                   Subject
                 </label>
-                <Input id="subject" placeholder="Project inquiry" />
+                <Input id="subject" name="subject" placeholder="Project inquiry" />
               </div>
 
               <div>
                 <label htmlFor="message" className="block text-sm font-medium mb-2">
                   Message
                 </label>
-                <Textarea id="message" placeholder="Tell me about your project..." rows={5} />
+                <Textarea
+                  id="message"
+                  name="message"
+                  placeholder="Tell me about your project..."
+                  rows={5}
+                />
               </div>
 
               <Button type="submit" className="w-full">
