@@ -13,7 +13,7 @@ export function ProjectsSection() {
       technologies: ["Laravel", "MySQL", "REST API", "Gemini AI", "Midtrans", "RajaOngkir", "IoT"],
       github: "https://github.com/Huseinaby/TUMBUH-Backend",
       demo: "https://documenter.getpostman.com/view/22821702/2sB2qgeyNX",
-      image: "/tumbuh.png",
+      image: "/TUMBUH.png",
       featured: true,
     },
     {
