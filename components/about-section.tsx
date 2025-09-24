@@ -45,7 +45,7 @@ export function AboutSection() {
               <div>
                 <h3 className="text-xl font-semibold mb-2">Interests</h3>
                 <div className="flex flex-wrap gap-2">
-                  {["Laravel", "DevOps", "Docker", "CI/CD Automation", "Linux Administration"].map((interest) => (
+                  {["Laravel", "Node.js", "DevOps", "Docker", "CI/CD Automation", "Linux Administration"].map((interest) => (
                     <span
                       key={interest}
                       className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-sm"
