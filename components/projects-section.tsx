@@ -7,13 +7,13 @@ import Image from "next/image"
 export function ProjectsSection() {
   const projects = [
     {
-      title: "E-commerce API Platform",
+      title: "TUMBUH Backend System",
       description:
-        "Scalable microservices architecture handling 10M+ requests daily with real-time inventory management, payment processing, and order fulfillment.",
-      technologies: ["Node.js", "PostgreSQL", "Redis", "Docker", "AWS"],
-      github: "https://github.com",
-      demo: "https://example.com",
-      image: "/e-commerce-api-dashboard-with-charts-and-metrics.jpg",
+        "Powering TUMBUH, the super-app for Indonesia's plant enthusiasts, this backend system integrates four core pillars into one digital ecosystem. It features a dynamic educational module using Gemini AI, a full-featured marketplace with Midtrans & RajaOngkir, location-based community forums, and an advanced IoT system for automated plant care.",
+      technologies: ["Laravel", "MySQL", "REST API", "Gemini AI", "Midtrans", "RajaOngkir", "IoT"],
+      github: "https://github.com/Huseinaby/TUMBUH-Backend",
+      demo: "https://documenter.getpostman.com/view/22821702/2sB2qgeyNX",
+      image: "/TUMBUH.png",
       featured: true,
     },
     {
