@@ -7,7 +7,7 @@ export function Footer() {
 
           <div className="text-center md:text-right">
             <p className="text-muted-foreground text-sm">
-              © 2024 Backend Developer Portfolio. Built with Next.js & Tailwind CSS.
+              ©2025 Abu Husein
             </p>
           </div>
         </div>

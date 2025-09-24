@@ -35,10 +35,10 @@ export function ContactSection() {
                 <div>
                   <p className="font-medium">Email</p>
                   <a
-                    href="mailto:hello@example.com"
+                    href="mailto:huseinabu01@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    hello@example.com
+                    huseinabu01@gmail.com
                   </a>
                 </div>
               </div>
@@ -50,7 +50,7 @@ export function ContactSection() {
                 <div>
                   <p className="font-medium">Phone</p>
                   <a href="tel:+1234567890" className="text-muted-foreground hover:text-primary transition-colors">
-                    +1 (234) 567-8900
+                    +62 878-1533-8021
                   </a>
                 </div>
               </div>
@@ -61,14 +61,14 @@ export function ContactSection() {
                 </div>
                 <div>
                   <p className="font-medium">Location</p>
-                  <p className="text-muted-foreground">San Francisco, CA</p>
+                  <p className="text-muted-foreground">Banjarmasin, Indonesia</p>
                 </div>
               </div>
             </div>
 
             <div className="flex space-x-4 pt-4">
               <a
-                href="https://github.com"
+                href="https://github.com/Huseinaby"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -77,7 +77,7 @@ export function ContactSection() {
                 <span className="sr-only">GitHub</span>
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://linkedin.com/in/muhammad-abu-husein"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"

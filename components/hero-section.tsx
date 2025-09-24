@@ -16,7 +16,7 @@ export function HeroSection() {
       <div className="max-w-4xl mx-auto text-center">
         <div className="space-y-8">
           <div className="space-y-4">
-            <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-balance">Muhammad Abu Husein</h1>
+            <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-balance">Abu Husein</h1>
             <p className="text-xl sm:text-2xl text-muted-foreground max-w-2xl mx-auto text-balance">
               Backend Developer who builds scalable, secure, and efficient server-side solutions.
             </p>
